@@ -1,0 +1,80 @@
+:root{
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'IBM Plex Mono', sans-serif;
+    --clr-cream: #FFF5EA;
+    --clr-purple: #9747FF;
+    --clr-black: #000;
+    --clr-white: #FFF;
+    --clr-yellow: #FFFB47;
+}
+
+html{
+    scroll-behavior: smooth;
+    letter-spacing: -0.05em;
+}
+
+body{
+    font-family: var(--font-primary);
+    background-color: var(--clr-cream);
+    color: var(--clr-black);
+}
+
+button{
+    padding: 0;
+    border: none;
+    background-color: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+/* media queries*/
+
+/*xs*/
+@media (min-width: 475px) {
+    .container{
+        max-width: 475px;
+    }
+}
+/*sm*/
+@media (min-width: 640px) {
+    .container{
+        max-width: 640px;
+    }
+}
+/*md*/
+@media (min-width: 768px) {
+    .container{
+        max-width: 768px;
+    }
+}
+/*lg*/
+@media (min-width: 1024px) {
+    .container{
+        max-width: 1024px;
+    }
+}
+/*xl*/
+@media (min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+    }
+    .section{
+        margin-top: 10em;
+    }
+}
+/*2xl*/
+@media (min-width: 1536px) {
+    .container{
+        max-width: 1536px;
+    }
+}

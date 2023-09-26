@@ -1,0 +1,43 @@
+.btn{
+    padding: .5em 1em;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    font-family: var(--font-primary);
+    font-weight: 700;
+    border: 1px solid var(--clr-black);
+    box-shadow: 2px 2px 0px 0px var(--clr-black);
+    background-color: var(--clr-purple); 
+    color: var(--clr-white);
+}
+
+.btn:hover{
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+
+.section{
+    margin-top: 5em;
+}
+
+.container{
+    max-width: 100%;
+}
+
+
+
+/* media queries*/
+
+/*xs*/
+/* @media (min-width: 475px) {} */
+/*sm*/
+/* @media (min-width: 640px) {} */
+/*md*/
+/* @media (min-width: 768px) {} */
+/*lg*/
+/* @media (min-width: 1024px) {} */
+/*xl*/
+/* @media (min-width: 1280px) {} */
+/*2xl*/
+/* @media (min-width: 1536px) {} */
