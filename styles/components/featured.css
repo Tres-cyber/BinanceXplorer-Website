@@ -1,0 +1,140 @@
+.featured{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.featured__part-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    padding: 30px 80px;
+    align-items: center;
+}
+
+.featured__box-purple{
+    display: flex;
+    padding: 0px 10px 30px 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--clr-purple);
+    height: 200px;
+    width: 300px;
+    border: 4px solid var(--clr-black);
+    box-shadow: 12px 12px 0px 0px var(--clr-black);
+}
+
+.featured__box-purple-part-one{
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.featured__money{
+    width: 80px;
+    height: 50px;
+}
+
+.featured__arrow{
+    width: 100px;
+    height: 100px;
+}
+
+.featured__description{
+    font-size: calc(1rem + 20%);
+    text-align: center;
+    color: var(--clr-black);
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.05em;
+}
+
+.featured__description-bold{
+    font-weight: bolder;
+}
+
+/* media queries*/
+
+/*xs*/
+/* @media (min-width: 475px) {} */
+/*sm*/
+/* @media (min-width: 640px) {} */
+/*md*/
+@media (min-width: 768px) {
+    .featured__part-one{
+        flex-direction: row;
+    }
+
+    .featured__box-purple{
+        height: 250px;
+        width: 500px;
+        padding: 0px 10px 50px 10px;
+    }
+
+    .featured__money{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .featured__arrow{
+        width: 200px;
+        height: 200px;
+    }
+
+    .featured__description{
+        font-size: calc(1rem + 50%);
+    }
+}
+/*lg*/
+@media (min-width: 1024px) {
+
+    .featured__box-purple{
+        height: 300px;
+        width: 600px;
+        padding: 0px 10px 50px 10px;
+    }
+
+    .featured__money{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .featured__arrow{
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .featured__description{
+        font-size: calc(1rem + 50%);
+    }
+}
+
+/*xl*/
+@media (min-width: 1280px) {
+    .featured__box-purple{
+        height: 300px;
+        width: 800px;
+    }
+
+    .featured__money{
+        width: 120px;
+        height: 120px;
+    }
+    
+    .featured__arrow{
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .featured__description{
+        font-size: calc(1rem + 60%);
+    }
+}
+/*2xl*/
+/* @media (min-width: 1536px) {} */
